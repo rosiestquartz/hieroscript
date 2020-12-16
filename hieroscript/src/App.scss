@@ -1,0 +1,32 @@
+.playground {
+  font-family: Calibri, sans-serif;
+  margin-bottom: 35px;
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 5px;
+  padding: 20px;
+
+  .title {
+    font-size: 18px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .playground-content {
+    .column {
+      display: flex;
+    }
+  }
+
+  .playground-editor {
+    margin-bottom: 10px;
+  }
+}
+
+.topnav a {
+  /* float: right; */
+  font-size: 16px !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  }
