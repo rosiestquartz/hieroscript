@@ -4,7 +4,7 @@ import Editor from './Editor';
 import Browser from './Browser';
 import Console from './Console';
 import './App.scss';
-import { DragDropContext } from 'react-beautiful-dnd';
+
 
 const PlaygroundHeader = ({ title, runCode }) => (
   
