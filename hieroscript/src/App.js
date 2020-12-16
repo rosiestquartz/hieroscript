@@ -72,7 +72,7 @@ export default class Playground extends Component {
     const { history, title, js } = this.state;
     const HieroScriptItems = [
       {
-        id: 'plus',
+        id: 'plus', // just an example item
         name: 'plussign',
         thumb: '/images/plusicon.png'
       }
@@ -88,19 +88,19 @@ export default class Playground extends Component {
           </div><br></br>
           
           <ul className="characters">
-  {HieroScriptItems.map(({id, name, thumb}) => {
-    return (
-      <li key={id}>
-        <div className="characters-thumb">
-          <img src={thumb} alt={`${name} Thumb`} />
-        </div>
-        <p>
-          { name }
-        </p>
-      </li>
-    );
-  })}
-</ul>
+            {HieroScriptItems.map(({id, name, thumb}) => {
+              return (
+                <li key={id}>
+                  <div className="characters-thumb">
+                    <img src={thumb} alt={`${name} Thumb`} />
+                  </div>
+                  <p>
+                    { name }
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
         <PlaygroundHeader title={title} runCode={this.runCode} />
 
         <div className="playground-content">
