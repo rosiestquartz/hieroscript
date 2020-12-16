@@ -117,7 +117,7 @@ export default class Playground extends Component {
 
           {/* browser displays all user created code in an iframe */}
           <Browser
-            //playgroundId={playgroundId}
+            
             js={js}
             addHistory={this.addHistory}
           />
